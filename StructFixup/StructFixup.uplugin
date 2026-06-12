@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Struct Fixup",
+	"Description": "Comprehensive User Defined Struct reinstancing. Fixes the 'modify struct -> objects break' issue by properly migrating all object instance data, force-recompiling dependent blueprints, rebuilding DataTables, and refreshing editors after any struct change.",
+	"Category": "Editor",
+	"CreatedBy": "modestimpala",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "StructFixup",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

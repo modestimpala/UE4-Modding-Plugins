@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Mod Packager",
+	"Description": "Right-click a mod folder in the Content Browser to cook ONLY that folder and produce a deployable <ModName>.pak. No per-mod maps, no chunk IDs, no full-project recook.",
+	"Category": "Modding",
+	"CreatedBy": "modestimpala",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ModPackager",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

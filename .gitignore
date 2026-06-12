@@ -1,0 +1,39 @@
+# ---- Unreal Engine plugin build artifacts ----
+# These are regenerated on every build and should never be committed.
+
+# Compiled binaries and intermediate build files (anywhere in the repo)
+Binaries/
+Intermediate/
+DerivedDataCache/
+
+# Build receipts / manifests
+*.modules
+*.target
+*.version
+
+# Compiled module artifacts
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+*.res
+*.response
+
+# ---- Visual Studio / Rider ----
+.vs/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.user
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

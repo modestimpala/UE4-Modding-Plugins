@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Fix Stale Struct Pins",
+	"Description": "Fixes stale Blueprint struct pins after struct reconformation. When a UDS is modified, Break/Make/SetFields nodes get duplicate pin pairs (old orphaned GUID with connections, new correct GUID without). This plugin transfers connections and default values from stale pins to their reconformed counterparts.",
+	"Category": "Editor",
+	"CreatedBy": "modestimpala",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FixStaleStructPins",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

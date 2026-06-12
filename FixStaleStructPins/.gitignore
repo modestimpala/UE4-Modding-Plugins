@@ -1,0 +1,22 @@
+# Unreal Engine plugin build artifacts (regenerated on build)
+Binaries/
+Intermediate/
+DerivedDataCache/
+
+*.modules
+*.target
+*.version
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+*.res
+*.response
+
+# Editor / OS cruft
+.vs/
+.idea/
+*.user
+.DS_Store
+Thumbs.db
