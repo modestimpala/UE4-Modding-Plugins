@@ -11,6 +11,9 @@ DerivedDataCache/
 *.target
 *.version
 
+# Release packaging output (produced by package_releases.ps1)
+dist/
+
 # Compiled module artifacts
 *.dll
 *.lib

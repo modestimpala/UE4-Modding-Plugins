@@ -1,7 +1,7 @@
 # Moddy's UE4 Modding Plugins
 
 A collection of small, single-purpose **Unreal Engine 4.27 editor plugins** built for
-modding workflows (originally for *Voices of the Void*). Each plugin is self-contained and
+modding workflows (originally for *[Voices of the Void](https://github.com/modestimpala/VotVMods)*). Each plugin is self-contained and
 can be dropped into a project's `Plugins/` folder independently.
 
 ## Plugins
